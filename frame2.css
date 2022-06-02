@@ -1,0 +1,749 @@
+header{
+    background-image:url(background.png) ;
+    width: 1920px;
+    height: 681px;
+}
+.rectangle1{
+    background: rgba(18, 17, 17, 0.82);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 40px;
+}
+.content{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1-hat{
+    font-weight: 600;
+    font-size: 43px;
+    line-height: 43px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+span-hat{
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 12px;
+}
+.menu-up{
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu-up-name{
+    width: 261px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav{
+    width: calc(100%/2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+a{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #B9B5BD;
+}
+.rectangle2{
+    height: 641px;
+    width: calc(100%/12*7);
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.81) 2%, rgba(0, 0, 0, 0.589424) 89.15%, rgba(0, 0, 0, 0) 114.5%);
+    display: flex;
+    flex-direction: row;
+}
+.menu-left{
+    width: calc(100%/6);
+
+}
+.text-header{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    margin-top: 135px;
+    font-weight: 400;
+    font-size: 82px;
+    line-height: 81px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+p-students{
+    width: calc(100%/3*2);
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+.buttons{
+    margin-top: 20px;
+    margin-bottom: 60px;  
+}
+button-left{
+    width: calc(100%/3);
+    border: 1px solid #BEBEC8;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 7px 15px;
+}
+button-right{
+    border: 1px solid #BEBEC8;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #E89B2B;
+    padding: 7px 15px;
+}
+p-newlyweds{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+}
+p{
+    width: calc(100%/3*2);
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+span{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    color: #E89B2B;
+}
+.yellow{
+    width: 1920px;
+    height: 6px;
+    background: #E89B2B;
+}
+section{
+    background: #202021;
+    width: 1920px;
+}
+h2{
+    padding-top: 154px;
+    margin-left: 100px;
+    font-weight: 600;
+    font-size: 83px;
+    line-height: 82px;
+    color: rgba(255, 255, 255, 0.14);
+}
+h2-double{
+    padding-top: 50px;
+    margin-left: 124px;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 34px;
+    color: #FFFFFF;
+    
+}
+.Pole-Dance{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.text-Pole-Dance{
+    display: flex;
+    flex-direction:column;
+    height: 362px;
+    width: 678px;
+}
+span-Pole-Dance{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 34px;
+    color: #FFFFFF;
+
+}
+span-Pole-Dance2{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+p-Pole-Dance{
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin: 30px 0;
+}
+.image-Pole-Dance{
+    height: 616px;
+    width: 480px;
+    margin-top: -120px;
+    margin-left: 20px;
+}
+.enroll{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 80px -10px;
+
+}
+#days{
+    width: 580px;
+    display: flex;
+    margin: 34px 10px;
+}
+.day{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #E89B2B;
+    width: 400px;
+}
+p-day{
+    font-weight: 300;
+    font-size: 52px;
+    line-height: 52px;
+    color: #FFFFFF; 
+
+}
+button-enroll{
+    font-weight: 400;
+    font-size: 41px;
+    line-height: 41px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #E89B2B;
+    border: 1px solid #202021;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-lesson{
+    background-image: url(Rectangle44\(1\).png);
+    height: 192px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+}
+p-first-lesson{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-top: 25px;
+    margin-left: 103px;
+
+}
+button-lesson{
+    width: calc(100%/6);
+    background: #E89B2B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 5px 10px ;
+    margin-left: 103px;
+    margin-top: 50px;
+    text-align: center;
+}
+.yellow-short{ 
+    width: 100%;
+    height: 6px;
+    background: #E89B2B;
+}
+.Vector{
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 38px;
+    width: 480px;
+    margin: 60px 0;
+}
+footer{
+    width: 1920px;
+    background-image: url(background1.png);
+
+}
+.rectangle4{
+    width: 1920px;
+    background: rgba(18, 17, 17, 0.82);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.social-network{
+    text-align: end;
+    padding: 40px 0;
+}
+p-social{
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 100px; ;
+}
+.name-info{
+    display: flex;
+    flex-direction: column;
+}
+p-menu{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #B9B5BD;
+
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+}
+h5{
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+p-info{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+@media (max-width: 768px) {
+    header{
+        background-image:url(background.png) ;
+        width: 100%;
+        height: 681px;
+        background-position: center;
+    }
+    .rectangle1{
+        width: 100%;
+        height: 50px;
+       
+    }
+    .content{
+        width: 100%;
+        padding:0  20px;
+        box-sizing: border-box;
+        }
+    }
+    h1-hat{
+        font-size: 36px;
+        line-height: 36px;
+        display: flex;
+        align-items:flex-end ;
+    }
+    span-hat{
+        font-size: 22px;
+        line-height: 22px;
+    }
+    nav{
+        flex-flow: row wrap;
+    }
+    h1{
+        margin-top: 80px;
+        font-size: 74px;
+        line-height: 74px;
+    }
+    p-students{
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .buttons{
+        margin: 20px;
+    }
+    p{
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .yellow{
+        width: 100%;
+    }  
+    section{
+        width: 100%;
+    }
+    h2{
+        padding-top: 50px;
+        margin: 0px;
+        font-size: 74px;
+        line-height: 74px;
+        text-align: center;
+    }
+    h2-double{ 
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .Pole-Dance{
+        flex-direction: column;
+    }
+    .text-Pole-Dance{
+        display: flex;
+        flex-direction:column;
+        height: 100%;
+        width: 100%;
+    }
+    span-Pole-Dance{
+        font-size: 24px;
+        line-height: 24px;
+    
+    }
+    span-Pole-Dance2{
+        font-size: 22px;
+        line-height: 22px;
+    }
+    p-Pole-Dance{
+        font-size: 20px;
+        line-height: 20px;
+        margin: 10px 0;
+    }
+    .image-Pole-Dance{
+        height: 616px;
+        width: 480px;
+        object-fit: cover;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .enroll{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 30px 0px;
+        justify-content: center;
+        
+    
+    }
+    #days{
+        width: calc(100% / 3 *2);
+        display: flex;
+        margin: 10px 0px;
+
+    }
+    .day{
+        width: calc(100% / 2);
+    }
+    p-day{
+        font-size: 26px;
+        line-height: 26px;
+    
+    }
+    button-enroll{
+        font-size: 26px;
+        line-height: 26px;
+        width: calc(100% / 3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .first-lesson{
+        margin-top: 50px;
+        height: 130px;
+        background-position: right;
+    }
+    p-first-lesson{
+        font-size: 40px;
+        line-height: 40px;
+        color: #FFFFFF;
+        margin-top: 20px;
+        margin-left: 103px;
+    
+    }
+    button-lesson{
+        font-size: 22px;
+        line-height: 22px;
+        padding: 5px 10px ;
+        margin-left: 103px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .yellow-short{ 
+        width: 100%;
+        height: 6px;
+        background: #E89B2B;
+    }
+    .Vector{
+        font-size: 20px;
+        line-height: 20px;
+        width: calc(100% / 2);
+        margin: 20px 0;
+    }
+    footer{
+        width: 100%;
+        background-image: url(background1.png);
+    
+    }
+    .rectangle4{
+        width: 100%;
+        background: rgba(18, 17, 17, 0.82);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .social-network{
+        text-align: end;
+        padding: 20px 0;
+    }
+    p-social{
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+    .info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-bottom: 50px;
+        
+    }
+    .icon{
+        height: 15px;
+        width: 15px;
+    }
+    .name-info{
+        display: flex;
+        flex-direction: column;
+    }
+    p-menu{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #B9B5BD;
+    
+    }
+    .contacts{
+        display: flex;
+        flex-direction: column;
+        margin-right: 70px;
+    }
+    h5{
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+    p-info{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+@media (max-width: 600px) {    
+    .rectangle1{
+        height: 50px;
+    }
+        h1-hat{
+            font-size: 26px;
+            line-height: 26px;
+        }
+        span-hat{
+            font-size: 18px;
+            line-height: 18px;
+        }
+        a{
+            font-size: 12px;
+            line-height: 12px;
+        }
+        nav{
+            flex-flow: row wrap;
+        }
+        h1{
+            margin-top: 80px;
+            font-size: 60px;
+            line-height: 60px;
+        }
+        p-students{
+            font-size: 20px;
+            line-height: 20px;
+            padding: 0px;
+        }
+        p-newlyweds{
+            font-size: 22px;
+            line-height: 22px;
+            margin-top: 0px;
+        }
+        .text-header{
+            justify-content: space-around;
+        }
+        .buttons{
+            margin: 10px 0;
+        }
+        p{
+            font-size: 18px;
+            line-height: 18px;
+        }
+        .yellow{
+            width: 100%;
+        }  
+        section{
+            width: 100%;
+        }
+        h2{
+            padding-top: 25px;
+            margin: 0px;
+            font-size: 52px;
+            line-height: 52px;
+            text-align: center;
+        }
+        h2-double{ 
+            margin: 0px;
+            display: flex;
+            justify-content: center;
+            font-size: 24px;
+            line-height: 24px;
+        }
+        .Pole-Dance{
+            flex-direction: column;
+        }
+        .text-Pole-Dance{
+            display: flex;
+            flex-direction:column;
+            height: 100%;
+            width: 100%;
+        }
+        span-Pole-Dance{
+            font-size: 20px;
+            line-height: 20px;
+        
+        }
+        span-Pole-Dance2{
+            font-size: 19px;
+            line-height: 19px;
+        }
+        p-Pole-Dance{
+            font-size: 17px;
+            line-height: 17px;
+            margin: 5px 0;
+        }
+        .image-Pole-Dance{
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 350px;
+            width: 280px;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+        .enroll{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 15px 0px;
+            justify-content: center;
+            
+        
+        }
+        #days{
+            width: 100% ;
+            display: flex;
+            margin: 5px 0px;
+    
+        }
+        .day{
+            width: calc(100% / 2);
+        }
+        p-day{
+            font-size: 19px;
+            line-height: 19px;
+        
+        }
+        button-enroll{
+            font-size: 22px;
+            line-height: 22px;
+            width: calc(100% / 3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }        
+        .first-lesson{
+            margin-top: 25px;
+            height: 110px;
+            background-position: right;
+        }
+        p-first-lesson{
+            font-size: 24px;
+            line-height: 24px;
+            margin-left: 0px;
+            text-align: center;
+        
+        }
+        button-lesson{
+            font-size: 20px;
+            line-height: 20px;
+            margin-left: 0px;
+            margin-top: 25px;
+            text-align: center;
+            width: calc(100% / 2);
+        }
+        .yellow-short{ 
+            height: 4px;
+        }
+        .Vector{
+            font-size: 20px;
+            line-height: 20px;
+            width: 100%;
+            margin: 20px 0;
+        }
+        footer{
+            width: 100%;
+            background-image: url(background1.png);
+        
+        }
+        .social-network{
+            padding: 10px 0;
+        }
+        p-social{
+            font-size: 14px;
+            line-height: 14px;
+        }
+        .info{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            padding-bottom: 25px;
+            
+        }
+        .icon{
+            height: 10px;
+            width: 10px;
+        }
+        .name-info{
+            display: flex;
+            flex-direction: column;
+            margin-right: 150px;
+        }
+        p-menu{
+            font-size: 16px;
+            line-height: 16px;
+            color: #B9B5BD;
+        
+        }
+        .contacts{
+            display: flex;
+            flex-direction: column;
+            margin-right: 20px      
+        }
+        h5{
+            font-size: 18px;
+            line-height: 18px;
+            margin-top: 20px;
+        }
+    }

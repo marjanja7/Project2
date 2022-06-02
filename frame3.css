@@ -1,0 +1,726 @@
+header{
+    background-image:url(background.png) ;
+    width: 1920px;
+    height: 681px;
+}
+.rectangle1{
+    background: rgba(18, 17, 17, 0.82);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 40px;
+}
+.content{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1-hat{
+    font-weight: 600;
+    font-size: 43px;
+    line-height: 43px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+span-hat{
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 12px;
+}
+.menu-up{
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+nav{
+    width: calc(100%/2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+a{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #B9B5BD;
+}
+.rectangle2{
+    height: 641px;
+    width: calc(100%/12*7);
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.81) 2%, rgba(0, 0, 0, 0.589424) 89.15%, rgba(0, 0, 0, 0) 114.5%);
+    display: flex;
+    flex-direction: row;
+}
+.menu-left{
+    width: calc(100%/6);
+
+}
+.text-header{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    margin-top: 135px;
+    font-weight: 400;
+    font-size: 82px;
+    line-height: 81px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+p-students{
+    width: calc(100%/3*2);
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+.buttons{
+    margin-top: 20px;
+    margin-bottom: 60px;  
+}
+button-left{
+    width: calc(100%/3);
+    border: 1px solid #BEBEC8;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 7px 15px;
+}
+button-right{
+    border: 1px solid #BEBEC8;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #E89B2B;
+    padding: 7px 15px;
+}
+p-newlyweds{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+}
+p{
+    width: calc(100%/3*2);
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+span{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    color: #E89B2B;
+}
+.yellow{
+    width: 1920px;
+    height: 6px;
+    background: #E89B2B;
+}
+section{
+    background: #202021;
+    width: 1920px;
+}
+h2{
+    padding-top: 154px;
+    margin-left: 100px;
+    font-weight: 600;
+    font-size: 83px;
+    line-height: 82px;
+    color: rgba(255, 255, 255, 0.14);
+}
+h2-double{
+    padding-top: 50px;
+    margin-left: 124px;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+#directions{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 -22px;
+
+}
+.direction{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3 -20px);
+    margin: 20px 10px;
+}
+.image-direction{     
+    width: 100%;
+    height: 168px;
+    background-size: cover;
+    background: rgba(0, 0, 0, 0.25);
+}
+.name-direction{
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 38px;
+    color: #FFFFFF;
+    background: #202021;
+    height: 41px;
+    width: 175px;
+    padding-left: 15px;
+    margin-top: -45px;
+    display: flex;
+    align-items: flex-end;
+
+}
+.black-line{
+    height: 7px;
+    background: #202021;
+    margin-top: -5px;
+}
+.day-time{
+    width: (100% -20px);
+    height: 268px;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 38px;
+    border: 1px solid #E89B2B;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.background{
+    width: 100%;
+    height: 296px;
+    background: rgb(23, 23, 23);
+}
+.buttons-direction{
+    height: 60px;
+    background: linear-gradient(0deg, rgba(32, 32, 33, 0.79) 0%, rgba(32, 32, 33, 0) 231.77%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+button-enroll{
+    width: calc(100%/2-60px);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background: #E89B2B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 5px 10px ;
+    margin: 30px;
+
+}
+button-detail{
+    border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: calc(100%/2-60px);
+    margin: 30px;
+    padding: 5px 10px ;
+}
+.grey-short{
+    width: 100%;
+    height: 5px;
+    background: #404043;
+    margin-top: 140px;
+
+}
+.look-all{
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 38px;
+    color: #404043;
+    text-align: end;
+    margin-bottom: 140px;
+}
+footer{
+    width: 1920px;
+    background-image: url(background1.png);
+
+}
+.rectangle4{
+    width: 1920px;
+    background: rgba(18, 17, 17, 0.82);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.social-network{
+    text-align: end;
+    padding: 40px 0;
+}
+p-social{
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 100px; ;
+}
+.name-info{
+    display: flex;
+    flex-direction: column;
+}
+p-menu{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #B9B5BD;
+
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+}
+h5{
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+p-info{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+@media (max-width: 768px) {
+    header{
+        background-image:url(background.png) ;
+        width: 100%;
+        height: 681px;        
+        background-position: center;
+    }
+    .rectangle1{
+        background: rgba(18, 17, 17, 0.82);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 100%;
+        height: 50px;
+    }
+    .content{
+        width: 100%;
+        padding:0  20px;
+        box-sizing: border-box;
+        }
+    }
+    h1-hat{
+        font-size: 36px;
+        line-height: 36px;
+        display: flex;
+        align-items:flex-end ;
+    }
+    span-hat{
+        font-size: 22px;
+        line-height: 22px;
+    }
+    nav{
+        flex-flow: row wrap;
+    }
+    h1{
+        margin-top: 80px;
+        font-size: 74px;
+        line-height: 74px;
+    }
+    p-students{
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .buttons{
+        margin: 20px;
+    }
+    p{
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .yellow{
+        width: 100%;
+    }  
+    section{
+        width: 100%;
+    }
+    h2{
+        padding-top: 50px;
+        margin: 0px;
+        font-size: 74px;
+        line-height: 74px;
+        text-align: center;
+    }
+    h2-double{ 
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    #directions{
+        display: flex;
+        flex-direction: column;
+        margin:15px 0;
+        justify-content: center;
+    
+    }
+    .direction{
+        width: 100%;
+        margin: 15px 0px;
+    }
+    .image-direction{     
+        width: 100%;
+        height: 168px;
+        background-size: cover;
+        background: rgba(0, 0, 0, 0.25);
+    }
+    .name-direction{
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 38px;
+        color: #FFFFFF;
+        background: #202021;
+        height: 41px;
+        width: 175px;
+        padding-left: 15px;
+        margin-top: -45px;
+        display: flex;
+        align-items: flex-end;
+    
+    }
+    .black-line{
+        height: 5px;
+        background: #202021;
+        margin-top: -5px;
+    }
+    .day-time{
+        width: (100% -20px);
+        height: 268px;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 38px;
+        border: 1px solid #E89B2B;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .background{
+        width: 100%;
+        height: 296px;
+        background: rgb(23, 23, 23);
+    }
+    .buttons-direction{
+        height: 60px;
+        background: linear-gradient(0deg, rgba(32, 32, 33, 0.79) 0%, rgba(32, 32, 33, 0) 231.77%);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    button-enroll{
+        width: calc(100%/2-60px);
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 28px;
+        color: #FFFFFF;
+        background: #E89B2B;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding: 5px 10px ;
+        margin: 30px;
+    
+    }
+    button-detail{
+        border: 1px solid #FFFFFF;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 28px;
+        color: #FFFFFF;
+        width: calc(100%/2-60px);
+        margin: 30px;
+        padding: 5px 10px ;
+    }
+    .grey-short{
+        width: 100%;
+        height: 5px;
+        background: #404043;
+        margin-top: 40px;
+    
+    }
+    .look-all{
+        font-size: 24px;
+        line-height: 24px;
+        color: #404043;
+        text-align: end;
+        margin-bottom: 40px;
+    }
+    .vector{
+        right:20px ;
+        width: 20px;
+
+    }
+    footer{
+        width: 100%;
+        background-image: url(background1.png);
+    
+    }
+    .rectangle4{
+        width: 100%;
+        background: rgba(18, 17, 17, 0.82);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .social-network{
+        text-align: end;
+        padding: 20px 0;
+    }
+    p-social{
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+    .info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-bottom: 50px;
+        
+    }
+    .icon{
+        height: 15px;
+        width: 15px;
+    }
+    .name-info{
+        display: flex;
+        flex-direction: column;
+    }
+    p-menu{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #B9B5BD;
+    
+    }
+    .contacts{
+        display: flex;
+        flex-direction: column;
+        margin-right: 70px;
+    }
+    h5{
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+    p-info{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+@media (max-width: 600px) {    
+    .rectangle1{
+        height: 50px;
+        }
+        h1-hat{
+            font-size: 26px;
+            line-height: 26px;
+        }
+        span-hat{
+            font-size: 18px;
+            line-height: 18px;
+        }
+        a{
+            font-size: 12px;
+            line-height: 12px;
+        }
+        nav{
+            flex-flow: row wrap;
+        }
+        h1{
+            margin-top: 80px;
+            font-size: 60px;
+            line-height: 60px;
+        }
+        p-students{
+            font-size: 20px;
+            line-height: 20px;
+            padding: 0px;
+        }
+        p-newlyweds{
+            font-size: 22px;
+            line-height: 22px;
+            margin-top: 0px;
+        }
+        .text-header{
+            justify-content: space-around;
+        }
+        .buttons{
+            margin: 10px 0;
+        }
+        p{
+            font-size: 18px;
+            line-height: 18px;
+        }
+        .yellow{
+            width: 100%;
+        }  
+        section{
+            width: 100%;
+        }
+        h2{
+            padding-top: 25px;
+            margin: 0px;
+            font-size: 52px;
+            line-height: 52px;
+            text-align: center;
+        }
+        h2-double{ 
+            margin: 0px;
+            display: flex;
+            justify-content: center;
+            font-size: 24px;
+            line-height: 24px;
+        }
+        #directions{
+            display: flex;
+            flex-direction: column;
+            margin:15px 0;
+            justify-content: center;
+        
+        }
+        .direction{
+            width: 100%;
+            margin: 10px 0px;
+        }
+        .image-direction{     
+            width: 280px;
+            height: 108px;
+            object-fit: cover;
+        }
+        .name-direction{
+            font-size: 22px;
+            line-height: 22px;
+            height: 25px;
+            width: 105px;
+            padding-left: 10px;
+      
+        }
+        .day-time{
+            width: (100% -20px);
+            height: 128px;            
+            font-size: 26px;
+            line-height: 26px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .background{
+            width: 100%;
+            height: 138px;
+        }
+        .buttons-direction{
+            height: 34px;
+            background: linear-gradient(0deg, rgba(32, 32, 33, 0.79) 0%, rgba(32, 32, 33, 0) 231.77%);
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 10px;
+        }
+        button-enroll{
+            width: calc(100% / 2);
+            font-size: 20px;
+            line-height: 20px;
+            padding: 5px 10px ;
+            margin: 0px 20px;
+        
+        }
+        button-detail{
+            font-size: 20px;
+            line-height: 20px;
+            color: #FFFFFF;
+            width: calc(100% / 2);
+            margin: 0px 20px;
+            padding: 5px 10px ;
+        }
+        .grey-short{
+            width: 100%;
+            height: 5px;
+            background: #404043;
+            margin-top: 20px;
+        
+        }
+        .look-all{
+            font-size: 16px;
+            line-height: 16px;
+            margin-bottom: 20px;
+        }
+        .vector{
+            right:20px ;
+            width: 20px;
+    
+        }
+
+        footer{
+            width: 100%;
+            background-image: url(background1.png);
+        
+        }
+        .social-network{
+            padding: 10px 0;
+        }
+        p-social{
+            font-size: 14px;
+            line-height: 14px;
+        }
+        .info{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            padding-bottom: 25px;
+            
+        }
+        .icon{
+            height: 10px;
+            width: 10px;
+        }
+        .name-info{
+            display: flex;
+            flex-direction: column;
+            margin-right: 150px;
+        }
+        p-menu{
+            font-size: 16px;
+            line-height: 16px;
+            color: #B9B5BD;
+        
+        }
+        .contacts{
+            display: flex;
+            flex-direction: column;
+            margin-right: 20px      
+        }
+        h5{
+            font-size: 18px;
+            line-height: 18px;
+            margin-top: 20px;
+        }
+    }    
